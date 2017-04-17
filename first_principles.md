@@ -1,6 +1,7 @@
 # first principles
 the goal is to build a system that implements these principles
 
+
 #### gravatational particle interaction in the janus model
 1. 2 types of particles
   * positive
@@ -11,6 +12,7 @@ the goal is to build a system that implements these principles
 3. particles of different types repel
    * <--- |positive||negative| --->
 
+
 #### properties of particles
 * arbritary masses
 * flag to represent either positive or negative particle
@@ -18,6 +20,7 @@ the goal is to build a system that implements these principles
 * velocity for x, y, z
 * sphere of influence derived from mass
   * this is the distance from the particle in which other particles are influenced
+
 
 #### properties of universe
 * initialized at a drop zone
