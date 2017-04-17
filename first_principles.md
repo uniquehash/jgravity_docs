@@ -13,7 +13,7 @@ the goal is to build a system that implements these principles
    * <--- |positive||negative| --->
 ---
 
-#### properties of particles
+#### properties of stars
 * arbritary masses
 * flag to represent either positive or negative particle
 * x, y, z current position
@@ -24,6 +24,6 @@ the goal is to build a system that implements these principles
 
 #### properties of universe
 * initialized at a drop zone
-  * an area in the universe in which particles are spawned initially
+  * an area in the universe in which stars are spawned initially
 ---
 
