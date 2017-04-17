@@ -4,8 +4,8 @@ the goal is to build a system that implements these principles
 
 #### gravatational particle interaction in the janus model
 1. 2 types of particles
-  * positive
-  * negative
+   * positive
+   * negative
 2. particles of the same type attract
    * |positive| ---> <--- |positive|
    * |negative| ---> <--- |negative|
