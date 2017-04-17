@@ -6,7 +6,7 @@ the goal is to build a system that implements these principles
   * positive
   * negative
 2. particles of the same type attract
-   * |positive| ---> <--- |positive|
+   * |positive|  ---> <--- |positive|
    * |negative| ---> <--- |negative|
 3. particles of different types repel
    * <--- |positive||negative| --->
