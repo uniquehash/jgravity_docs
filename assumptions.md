@@ -1,4 +1,5 @@
 # assumptions
+things we hold to be true
 
 1. only stars
 2. space is empty
