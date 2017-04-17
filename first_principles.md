@@ -13,6 +13,7 @@ the goal is to build a system that implements these principles
    * <--- |positive||negative| --->
 
 
+
 #### properties of particles
 * arbritary masses
 * flag to represent either positive or negative particle
@@ -20,6 +21,7 @@ the goal is to build a system that implements these principles
 * velocity for x, y, z
 * sphere of influence derived from mass
   * this is the distance from the particle in which other particles are influenced
+
 
 
 #### properties of universe
