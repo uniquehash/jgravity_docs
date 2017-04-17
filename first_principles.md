@@ -7,9 +7,9 @@ the goal is to build a system that implements these principles
   * negative
 2. particles of the same type attract
    * |positive| ---> <--- |positive|
-  * |negative| ---> <--- |negative|
+   * |negative| ---> <--- |negative|
 3. particles of different types repel
-  * <--- |positive||negative| --->
+   * <--- |positive||negative| --->
 
 #### properties of particles
 * arbritary masses
