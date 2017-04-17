@@ -24,6 +24,6 @@ the goal is to build a system that implements these principles
 
 #### properties of universe
 * initialized at a drop zone
-  * an area in the universe in which particles are spawned
+  * an area in the universe in which particles are spawned initially
 ---
 
