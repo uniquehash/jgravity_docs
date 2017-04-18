@@ -20,6 +20,10 @@ the goal is to build a system that implements these principles
 * velocity for x, y, z
 * sphere of influence derived from mass
   * this is the distance from the particle in which other particles are influenced
+* to calculate new coordinates
+  * aggregate all forces acting on the star
+  * perform the gravitational equation between the star and the forces acting upon it
+
 ---
 
 #### properties of universe
