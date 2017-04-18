@@ -15,7 +15,8 @@ the goal is to build a system that implements these principles
 
 #### properties of stars
 * arbritary masses
-* flag to represent either positive or negative particle
+  * positive mass indicates positive material
+  * negative mass indicates negatice material
 * x, y, z current position
 * velocity for x, y, z
 * sphere of influence derived from mass
