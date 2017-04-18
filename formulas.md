@@ -28,7 +28,14 @@ delta_t = step of time to use
   * delta_Y = `vY * delta_t`
   * delta_Z = `vZ * delta_t`
   
-  
+* aggregating mass of forces acting on a star
+  * sigma_mass = `i = 1 sigma (mass(i))`
+
+* aggregating position for forces acting on a star
+  * sigma_x = `(sigma x(i) * mass(i)) / sigma(mass(i))`
+  * sigma_y = `(sigma y(i) * mass(i)) / sigma(mass(i))`
+  * sigma_z = `(sigma z(i) * mass(i)) / sigma(mass(i))`
+ 
   
   
   
