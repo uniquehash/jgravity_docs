@@ -7,9 +7,9 @@ delta_t = step of time to use
   * https://math.stackexchange.com/questions/42640/calculate-distance-in-3d-space
 
 * force
-  * fX = `((massB * (6.673 * pow(10, -11) / pow(const_distance, 3))) * (xB - xA))`
-  * fY = `((massB * (6.673 * pow(10, -11) / pow(const_distance, 3))) * (yB - yA))`
-  * fZ = `((massB * (6.673 * pow(10, -11) / pow(const_distance, 3))) * (zB - zA))`
+  * fX = `(((massA / abs(massA)) * massB * (6.673 * pow(10, -11) / pow(const_distance, 3))) * (xB - xA))`
+  * fY = `(((massA / abs(massA)) * massB * (6.673 * pow(10, -11) / pow(const_distance, 3))) * (yB - yA))`
+  * fZ = `(((massA / abs(massA)) * massB * (6.673 * pow(10, -11) / pow(const_distance, 3))) * (zB - zA))`
 
 * const_force = `(massB * (6.673 * pow(10, -11)) / pow(const_distance, 3))`
 
