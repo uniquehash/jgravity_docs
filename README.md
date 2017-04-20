@@ -8,7 +8,7 @@ To summerize, the Janus Model conceives two types of matter that have simple rel
 
 The central intuition of the Janus Model is that by using **positive mass** to represent Positive Matter, and **negative mass** to represent Negative Matter we should be able to use basic gravitational mathematical concepts to explain much of the behavior observed in our cosmos.
 
-The core of this project is the [physics simulation](https://github.com/all-hack/jgravity_docs/blob/master/physics_simulation.md) the process of actually simulating the Janus Model. There are two other parts of almost equal importance: a graphical renderer, and concurrent processing optimizations.
+The core of this project is the [physics simulation](https://github.com/all-hack/jgravity_docs/blob/master/physics_simulation.md), the process of actually simulating the Janus Model. There are two other parts of almost equal importance: a graphical renderer, and concurrent processing optimizations.
 
 **Graphical Renderer**:
 A graphical renderer allows us to visualize the data and make sense of it, something we would be unable to do by simply looking at rows of numbers in a file.
