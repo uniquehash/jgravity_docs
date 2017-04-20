@@ -44,9 +44,9 @@ these will be the values we use to find the gravitational influence on the curre
   * delta_vY = fY * delta_t
   * delta_vZ = fZ * delta_t
 * forces
-  * fX = ((massB * (6.673 * pow(10, -11) / pow(const_distance, 3))) * (xB - xA))
-  * fY = ((massB * (6.673 * pow(10, -11) / pow(const_distance, 3))) * (yB - yA))
-  * fZ = ((massB * (6.673 * pow(10, -11) / pow(const_distance, 3))) * (zB - zA))
+  * fX = (((massA / abs(massA)) * massB * (6.673 * pow(10, -11) / pow(const_distance, 3))) * (xB - xA))
+  * fY = (((massA / abs(massA)) * massB * (6.673 * pow(10, -11) / pow(const_distance, 3))) * (yB - yA))
+  * fZ = (((massA / abs(massA)) * massB * (6.673 * pow(10, -11) / pow(const_distance, 3))) * (zB - zA))
 * distance
   * sqrt(pow(xA - xB, 2) + pow(yA - yB, 2) + pow(zA - zB, 2))
 
