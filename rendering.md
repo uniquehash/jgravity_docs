@@ -8,3 +8,10 @@ Rendering the data is going to be more difficult than anticipated.
       * If each star is a pixel then we're gonna have an *fun* time fitting it on the screen
   * Rendering
     * We are going need to build a custom renderer because the pieces of code from the graphics brach, can be adapted but will not work out of the box
+
+* eventual feature set
+  * ability to step through time intervals
+  * rotating perspective
+  * move around the map
+  * zoom functionality?
+  * scaling?
