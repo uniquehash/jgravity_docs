@@ -13,6 +13,8 @@ The core of this project is the [physics simulation](https://github.com/all-hack
 #### graphical renderer
 A graphical renderer allows us to visualize the data and make sense of it, something we would be unable to do by simply looking at rows of numbers in a file.
 
+
+
 #### concurrent processing optimizations
 The vey nature of simulating physics is computationally intensive, but when we think of it on the scale of the *universe* it becomes quite absurd. For this project to be useful it will be absolutely necessary to maximize the amount of processing power available to us. It will be imperative to use multi-threading to maximize the processing power of each computer, and multi-server to increase the maximum total power available.
 
