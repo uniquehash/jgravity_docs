@@ -23,6 +23,17 @@ By this point every star in our system should contain a linked list `influencing
   * sigma_y = (sigma y(i) * mass(i)) / sigma(mass(i))
   * sigma_z = (sigma z(i) * mass(i)) / sigma(mass(i))
 
+To start however, we can ignore this concept of **Sphere Of Influence** and simply have every star interacting with each other. Implementation wise this will be far simpler. The trick is to have a global struct which contains the aggregate mass of the system, and the coordinates of the aggregate center of mass. Then as we iterate through each star in the system to calculate the gravitational influence of the system on the current star we subtract the current stars mass from the aggregate mass and remove it's position from the coordinates of the aggregate center of mass. 
+
+* finding the mass influencing the star
+  * influencing_mass = sigma_mass - mass
+* finding the coordinates of the influencing center of gravity
+  * influencing_x = ((sigma_x * sigma_mass) - (mass * x)) / (influencing_mass)
+  * influencing_y = ((sigma_y * sigma_mass) - (mass * y)) / (influencing_mass)
+  * influencing_z = ((sigma_z * sigma_mass) - (mass * z)) / (influencing_mass)
+
+Basically, we use a global to contain all of the aggregate information and then subtract the current stars information from it to determine all the stars influencing the current stars, some of these stars will have 0 or near 0 impact on the current star, this however is a simpler way to implement this until we understand the physics of the problem a little bit better. 
+
 These will be the values we use to find the gravitational influence on the current star from it's neighboring star, and determine it's coordinates in the next interval.
 
 **delta_t** is the length of time that our simulation uses. 
