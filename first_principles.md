@@ -1,34 +1,34 @@
-# first principles
-the goal is to build a system that implements these principles
+# First Principles
+The goal is to build a system that implements these principles.
 
 
-#### gravatational particle interaction in the janus model
+#### Gravatational Particle Interaction In The Janus Model
 1. 2 types of particles
-   * positive
-   * negative
-2. particles of the same type attract
-   * |positive| ---> <--- |positive|
-   * |negative| ---> <--- |negative|
-3. particles of different types repel
-   * <--- |positive||negative| --->
+   * Positive
+   * Negative
+2. Particles Of The Same Type Attract
+   * |Positive| ---> <--- |Positive|
+   * |Negative| ---> <--- |Negative|
+3. Particles Of Different Types Repel
+   * <--- |Positive||Negative| --->
 ---
 
-#### properties of stars
-* arbritary masses
-  * positive mass indicates positive material
-  * negative mass indicates negatice material
-* x, y, z current position
-* velocity for x, y, z
-* sphere of influence derived from mass
-  * this is the distance from the particle in which other particles are influenced
-* to calculate new coordinates
-  * aggregate all forces acting on the star
-  * perform the gravitational equation between the star and the forces acting upon it
+#### Properties of Stars
+* Arbritary Masses
+  * Positive mass indicates positive material
+  * Negative mass indicates negative material
+* x, y, z Current Position
+* Velocity for x, y, z
+* Sphere of Influence Derived From Mass
+  * This is the distance from the particle in which other particles are influenced
+* To Calculate New Coordinates
+  * Aggregate all forces acting on the star
+  * Perform the gravitational equation between the star and the forces acting upon it
 
 ---
 
-#### properties of universe
-* initialized at a drop zone
-  * an area in the universe in which stars are spawned initially
+#### Properties of Universe
+* Initialized at a drop zone
+  * An area in the universe in which stars are spawned initially
 ---
 
