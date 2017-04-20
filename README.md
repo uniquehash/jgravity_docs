@@ -12,7 +12,7 @@ A graphical renderer allows us to visualize the data and make sense of it, somet
 
 The vey nature of simulating physics is computationally intensive, but when we think of it on the scale of the *universe* it becomes quite absurd. For this project to be useful it will be absolutely necessary to maximize the amount of processing power available to us. It will be imperative to use multi-threading to maximize the processing power of each computer, and multi-server to increase the maximum total power available.
 
-At this point a lot of this project is not figured out. There are [optimizations](https://github.com/all-hack/jgravity_docs/blob/master/optimizations.md) we are thinking about, but until we have some benchmarks of how much a single threaded program can handle, they seem difficult to concretize.
+At this point a lot of this project is not figured out, however we have begun putting together some [first principles of our sytem](https://github.com/all-hack/jgravity_docs/blob/master/first_principles.md). There are [optimizations](https://github.com/all-hack/jgravity_docs/blob/master/optimizations.md) we are thinking about, but until we have some benchmarks of how much a single threaded program can handle, they seem difficult to concretize.
 
 
 
