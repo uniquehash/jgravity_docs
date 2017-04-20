@@ -17,14 +17,13 @@ The goal is to build a system that implements these principles.
 * Arbritary Masses
   * Positive mass indicates positive material
   * Negative mass indicates negative material
-* x, y, z Current Position
+* Current Position x, y, z
 * Velocity for x, y, z
-* Sphere of Influence Derived From Mass
-  * This is the distance from the particle in which other particles are influenced
 * To Calculate New Coordinates
   * Aggregate all forces acting on the star
   * Perform the gravitational equation between the star and the forces acting upon it
-
+* Sphere of Influence Derived From Mass (not in initial versions)
+  * This is the distance from the particle in which other particles are influenced
 ---
 
 #### Properties of Universe
