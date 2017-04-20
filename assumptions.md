@@ -1,10 +1,8 @@
-# assumptions
-things we hold to be true
+# Assumptions
+Things We Hold To Be True
 
-1. only stars
-2. space is empty
-3. time is a series of steps
-4. particles do not spin
-5. volume of particles are the same
-
-
+1. There are only stars.
+2. Space is empty.
+3. Time is a series of steps.
+4. Particles do not spin.
+5. The volume of particles are the same.
