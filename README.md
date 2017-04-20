@@ -1,5 +1,6 @@
 # jgravity_docs
-documentation and planning for the jgravity project
+
+This repo is contains all documentation for working on the jgravity project.
 
 
 
