@@ -1,0 +1,7 @@
+1. Introduce a number of particles.
+2. Allow for uploading of a file with random generations or with calculated values.
+3. Capacity to change every constant.
+4. Multithread with GPU's.
+5. Partnership with another university / organization (info will be provided via Kwame on Slack)
+6. Timeline of July, 2017
+8. Kwame will bring job fair about internships June/July
